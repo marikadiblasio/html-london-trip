@@ -10,9 +10,9 @@
     <!-- intestazione --> 
     <header>
         <h1>Il mio Viaggio a Londra</h1>
-        <img src="img/london_skyline_0.jpg" alt="London skyline: London eye"  align="left">
-        <img src="img/london_skyline_1.jpg" alt="London skyline: Thames river" align="left">
-        <img src="img/london_skyline_2.jpg" alt="London skyline: Big Ben">
+        <img src="img/london_skyline_0.jpg" alt="London skyline: London eye"><!--
+        --><img src="img/london_skyline_1.jpg" alt="London skyline: Thames river"><!--
+      --><img src="img/london_skyline_2.jpg" alt="London skyline: Big Ben">
         <hr>
     </header>
     <!-- fine intestazione --> 
@@ -23,11 +23,14 @@
       <section>
         <h2>Le mie spese</h2>
         <table>
+          <thead>
             <tr>
               <th>Numero</th>
               <th>Descrizione</th>
               <th>Costo</th>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td>1</td>
               <td>Biglietto Aereo</td>
@@ -43,10 +46,13 @@
               <td>Biglietto Aereo</td>
               <td>120&euro;</td> 
             </tr>
+          </tbody>
+          <tfoot>
             <tr>
               <td colspan="2">Totale</td>
               <td>360&euro;</td>
             </tr>
+          </tfoot>
         </table>
         <hr>
       </section>
